@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'mainpage/code/css/indexstyle.css/' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/mainpage/code/css/glider.css/' %}">
+    <script src="{% static '/mainpage/code/js/glider.min.js/' %}"></script>
+    <script defer src="{% static '/mainpage/code/js/indexscript.js/' %}"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<div class="nav-btn"><span></span><span></span><span></span><span></span></div>
+
+<div class="nav">
+  <div class="links">
+    <div class="link"><a href="#">Home</a></div>
+    <div class="link"><a href="#">Services</a></div>
+    <div class="link"><a href="#">About</a></div>
+    <div class="link"><a href="#">Contact</a></div>
+    <div class="link"><a href="#">FAQ</a></div>
+  </div>
+</div>
+
+<div class="content">
+
+  <div class="main-video">
+    <video autoplay muted loop 
+      id="bgvid"><source src="{% static 'mainpage/assets/videos/bgvid2.mp4' %}" 
+      type="video/mp4">
+    </video>
+    <img src="{% static 'mainpage/assets/images/mcfd_symbol_gg.svg' %}" >
+  </div>
+
+  <div class="counter">
+    <img src="{% static 'mainpage/assets/images/counterbg2.jpg' %}" >
+    <div class="cnt-elem-container">
+
+      <div class="cnt-elem">
+        <a href="#">
+          <div class="num-container"><p class="num">000</p><p class="plus_symbol">+</p></div>        
+          <p class="desc">FEATURE</p>
+        </a>
+      </div>
+
+      <div class="cnt-elem">
+        <a href="#">
+          <div class="num-container"><p class="num">000</p><p class="plus_symbol">+</p></div>        
+          <p class="desc">FEATURE</p>
+        </a>
+      </div>
+
+      <div class="cnt-elem">
+        <a href="#">
+          <div class="num-container"><p class="num">000</p><p class="plus_symbol">+</p></div>        
+          <p class="desc">FEATURE</p>
+        </a>
+      </div>
+
+      <div class="cnt-elem">
+        <a href="#">
+          <div class="num-container"><p class="num">000</p><p class="plus_symbol">+</p></div>        
+          <p class="desc">FEATURE</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="main-title"><div class="link"><a href="#">Our Services</a></div></div>
+  <div class="slider-container">
+  <div class="glider-contain">
+    <div class="glider">
+        <div class="slider-item">
+            <img class="item-bg" src="{% static 'mainpage/assets/images/counterbg.jpg' %}">
+            <div class="item-hover">
+              <div class="item-title">
+                <div class="link"><a href="#">ITEM</a></div>
+              </div>
+              <div class="item-links">
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img class="item-bg" src="{% static 'mainpage/assets/images/counterbg.jpg' %}">
+            <div class="item-hover">
+              <div class="item-title">
+                <div class="link"><a href="#">ITEM</a></div>
+              </div>
+              <div class="item-links">
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img class="item-bg" src="{% static 'mainpage/assets/images/counterbg.jpg' %}">
+            <div class="item-hover">
+              <div class="item-title">
+                <div class="link"><a href="#">ITEM</a></div>
+              </div>
+              <div class="item-links">
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <img class="item-bg" src="{% static 'mainpage/assets/images/counterbg.jpg' %}">
+            <div class="item-hover">
+              <div class="item-title">
+                <div class="link"><a href="#">ITEM</a></div>
+              </div>
+              <div class="item-links">
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+                <div class="link"><a href="#">Sub-Item</a></div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+  
+    <button aria-label="Previous" class="glider-prev">«</button>
+    <button aria-label="Next" class="glider-next">»</button>
+    <div role="tablist" class="dots"></div>
+  </div>
+  </div>
+
+  <div id="title2" class="main-title" style=""><div class="link"><a href="#">Dental Botique Diffrence...</a></div></div>
+  <div class="info">
+    <div class="info-item">
+      <div class="title"><p>Section<p></div>
+      <div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+    </div>
+    <div class="info-item">
+      <div class="title"><p>Section<p></div>
+      <div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+    </div>
+    <div class="info-item">
+      <div class="title"><p>Section<p></div>
+      <div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+    </div>
+  </div>
+
+  <div class="main-title" style=""><div class="link"><a href="#">Smiles Gallery</a></div></div>
+
+</body>
+</html>
